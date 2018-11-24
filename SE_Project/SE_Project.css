@@ -1,0 +1,43 @@
+#bg1 {
+    background: #61B997;
+    padding: 20%;
+}
+
+#head1 {
+    color: white;
+}
+
+.fade{
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#Sidenav a {
+    position: absolute;
+    left: -130px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#Sidenav a:hover {
+    left: 0;
+}
+
+#it_kmitl {
+    top: 20px;
+    background-color: #4CAF50;
+}
