@@ -7,14 +7,63 @@
     <title>Software Engineer</title>
     <link rel="stylesheet" href="SE_Project.css">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="fade" id="bg1">
         <h1 align='center' class="fade" id="head1">Software<br>Engineer</h1>
     </div>
 
     <div id="Sidenav" class="fade">
-        <a href="http://www.it.kmitl.ac.th/" target="_blank" id="it_kmitl">Faculty<img src="it_kmitl.png" width="50px" height="50px" align='right'></a>
+        <a href="http://www.it.kmitl.ac.th/" target="_blank" id="it_kmitl">kmitl<img src="it_kmitl.png" width="50px" height="50px" align='right'></a>
+        <a href="#" id="content_table"> <img src="dashboard.svg" align='right' width="50px" height="50px"></a>
     </div>
 
+    <div id="about_course">
+        <h1 class="transition" id="course_description">What is Software Engineering?</h1>
+        <div>
+            <div>
+                <p id="text_descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iure, ullam provident nam at qui, enim deserunt atque deleniti pariatur facilis asperiores excepturi exercitationem voluptatem amet nesciunt necessitatibus! Animi, magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quaerat quibusdam dignissimos inventore, aperiam iure, non quis culpa placeat perspiciatis nesciunt nobis itaque velit omnis doloremque vel voluptatem, deleniti ab!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam rem placeat architecto veritatis praesentium explicabo fuga est deleniti ad quas officiis quos, nobis ut vel ullam necessitatibus unde ab aliquid.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section id="jscript">
+    <script>
+            var myVar;
+            
+            function myFunction() {
+                myVar = setTimeout(showPage(), 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("bg1").style.display = "block";
+            }
+    </script>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            }
+            else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    </section>
 </body>
 </html>
