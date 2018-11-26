@@ -20,6 +20,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="841">
               <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
+            <state relative-caret-position="399">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -121,11 +123,13 @@
       <workItem from="1543134201032" duration="3235000" />
       <workItem from="1543153637929" duration="4219000" />
       <workItem from="1543216718548" duration="95000" />
+      <workItem from="1543216718548" duration="403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8390000" />
+    <option name="totallyTimeSpent" value="8698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,6 +187,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
