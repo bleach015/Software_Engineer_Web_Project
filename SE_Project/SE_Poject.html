@@ -26,77 +26,14 @@
         <a href="http://www.it.kmitl.ac.th/" target="_blank" id="it_kmitl">IT @KMITL<img src="it_kmitl.png"
                                                                                          width="50px" height="50px" align='right'></a>
     </div>
-
     <!--  TEST   -->
-    <style>
-        body {
-            font-family: "Lato", sans-serif;
-        }
-
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-        }
-    </style>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a>What is Software Engineering?</a>
-        <a>Example career</a>
-        <a>Branch Subject</a>
-        <a>Subject table</a>
-        <a>Who is eligible for this branch?</a>
-        <a>To do/To have</a>
-        <a>Different</a>
+    <div id="Sidenav2" class="fade_dropdown">
+        <a href="#" id="content_table"><img src="dashboard.svg" align='right' width="50px" height="50px">MENU</a>
+        <div class="dropdown-content">
+            <p>Hello World!</p>
+        </div>
     </div>
-    <div  id="sidenav2" onclick="openNav()">
-        <a id="content_table"><img src="dashboard.svg" align='right' width="50px" height="50px"></a>
-
-    </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
     <!---------------------------------------------->
-
     <!--About Course-->
     <div id="about_course">
         <h1 class="transition" id="course_description">What is Software Engineering?</h1>
@@ -106,7 +43,7 @@
         </p>
     </div>
 
-    <!--Career after graduate-->
+    <!--Carrer after graduate-->
     <div id="career_ex">
         <h1 class="transition" id="career_ex_head">Example of career after graduated</h1>
                 <p id="career_ex_head_text">
@@ -122,125 +59,135 @@
     <!--Specific subjects in SE branch-->
     <div id="branch_subjects">
         <h1 class="transition" id="branch_subjects_ex">Branch Subject</h1>
-                <p id="branch_subject_text">
-                    1. SOFTWARE ENGINEERING<br>
-                    2. WEB PROGRAMMING<br>
-                    3. MOBILE DEVICE PROGRAMMING<br>
-                    4. REQUIREMENT ENGINEERING<br>
-                    5. SERVICE-ORIENTED PROGRAMMING<br>
-                    6. SOFTWARE VERIFICATION AND VALIDATION<br>
-                    7. CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT<br>
-                    8. SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS<br>
-                    9. PROJECT IN SOFTWARE ENGINEERING 1<br>
-                    10. PROJECT IN SOFTWARE ENGINEERING 2<br>
-                </p>
+                <ol>
+                    <li>SOFTWARE ENGINEERING</li>
+                    <li>WEB PROGRAMMING</li>
+                    <li>MOBILE DEVICE PROGRAMMING</li>
+                    <li>REQUIREMENT ENGINEERING</li>
+                    <li>SERVICE-ORIENTED PROGRAMMING</li>
+                    <li>SOFTWARE VERIFICATION AND VALIDATION</li>
+                    <li>CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</li>
+                    <li>SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</li>
+                    <li>PROJECT IN SOFTWARE ENGINEERING 1</li>
+                    <li>PROJECT IN SOFTWARE ENGINEERING 2</li>
+                </ol>
 
                 <p>
                     <b><br>SOFTWARE ENGINEERING<br></b>
                     Subject code: 06016321<br>
                     PREREQUISITE : 06016306 INFORMATION SYSTEMS ANALYSIS AND DESIGN<br>
                     Credit: 3(3-0-6)<br>
-                    Introduction to software engineering; software categories and evolution; software
+                    Introduction to software engineering; software categories and evolution;<span id="dots">...</span><span id="more"> software
                     engineering process framework; agile software development methodology; design pattern;
                     software engineering practice; software development environment using version control;
                     capability maturity model integration (CMMI); requirement engineering; analysis and design
                     engineering; introduction to software testing; unified process; process evaluation; and
-                    prescriptive and evolutionary process models.
+                    prescriptive and evolutionary process models.</span>
                 </p>
+                <button onclick="readFunction()" id="readMore">Read more</button>
 
                 <p>
                     <b><br>WEB PROGRAMMING<br></b>
                     Subject code: 06016322<br>
                     Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
                     Credit: 3(2-2-5)<br>
-                    Dynamic web pages development; HTTP protocol; web servers; server-side web
+                    Dynamic web pages development; HTTP protocol;<span id="dots1">...</span><span id="more1"> web servers; server-side web
                     programming; cookies handling; session tracking; web database application development;
-                    Javascript and AJAX technology
+                    Javascript and AJAX technology</span>
                 </p>
+                <button onclick="readFunction1()" id="readMore1">Read more</button>
 
                 <p>
                     <b><br>MOBILE DEVICE PROGRAMMING</b><br>
                     Subject code: 06016323<br>
                     Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
                     Credit: 3(2-2-5)<br>
-                    Introduction to technology and the programming of application for mobile computing including devices
-                    i.e. smart phones, pads, and tablets; developing mobile applications and using device emulators for coding and testing.
+                    Introduction to technology and the programming of application<span id="dots2">...</span><span id="more2"> for mobile computing including devices
+                    i.e. smart phones, pads, and tablets; developing mobile applications and using device emulators for coding and testing.</span>
                 </p>
+                <button onclick="readFunction2()" id="readMore2">Read more</button>
 
                 <p>
                     <b><br>REQUIREMENT ENGINEERING</b><br>
                     Subject code: 06016324<br>
                     Prerequisite: NONE<br>
                     Credit: 3(3-0-6)<br>
-                    Requirements management technique; problem analysis; stakeholder needs;
+                    Requirements management technique; problem analysis; stakeholder needs;<span id="dots3">...</span><span id="more3">
                     document requirements with use-case model; document hierarchy and standard for define requirements level;
                     system definition; scope managing; requirement attributes and traceability;
-                    manage change; using requirements to drive ongoing design, test, and user documentation.
+                    manage change; using requirements to drive ongoing design, test, and user documentation.</span>
                 </p>
+                <button onclick="readFunction3()" id="readMore3">Read more</button>
 
                 <p>
                     <b><br>SERVICE-ORIENTED PROGRAMMING</b><br>
                     Subject code: 06016325<br>
                     Prerequisite: NONE<br>
                     Credit: 3(2-2-5)<br>
-                    Concepts and structures of web services; web services standards;
+                    Concepts and structures of web services; web services standards;<span id="dots4">...</span><span id="more4">
                     development and deployment of web service applications; concept of Service-Oriented Architecture (SOA);
-                    features and benefits of enterprise service bus (ESB); business process management (BPM)
+                    features and benefits of enterprise service bus (ESB); business process management (BPM)</span>
                 </p>
+                <button onclick="readFunction4()" id="readMore4">Read more</button>
 
                 <p>
                     <b><br>SOFTWARE VERIFICATION AND VALIDATION</b><br>
                     Subject code: 06016326<br>
                     Prerequisite: 06016306 INFORMATION SYSTEMS ANALYSISAND DESIGN<br>
                     Credit: 3(3-0-6)<br>
-                    Role of V&V in software evolution; software technical reviews; levels of software testing; testing techniques;
+                    Role of V&V in software evolution; software technical reviews; levels of software testing;<span id="dots5">...</span><span id="more5"> testing techniques;
                     proof of correctness; simulation and prototyping; requirements tracing; software V&V planning; tracking
-                    test activities; problem tracking and assessment.
+                    test activities; problem tracking and assessment.</span>
                 </p>
+                <button onclick="readFunction5()" id="readMore5">Read more</button>
 
                 <p>
                     <b><br>CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</b><br>
                     Subject code: 06016327<br>
                     Prerequisite: 06016325 SERVICES-ORIENTED PROGRAMMING<br>
                     Credit: 3(2-2-5)<br>
-                    Introduction to cloud technology, cloud architecture, virtualization and
+                    Introduction to cloud technology, cloud architecture, virtualization and<span id="dots6">...</span><span id="more6">
                     multi-tenancy features, principles to develop enterprise application in cloud,
                     declarative and problematic application development, governances limits,
                     frequently encountered issues during cloud-based, application development,
                     requirements or capability factors towards the selection of appropriate development paradigm,
-                    data analytics using cloud platforms, principle to cloud database management, NoSQL.
+                    data analytics using cloud platforms, principle to cloud database management, NoSQL.</span>
                 </p>
+                <button onclick="readFunction6()" id="readMore6">Read more</button>
 
                 <p>
                     <b><br>SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</b><br>
                     Subject code: 06016328<br>
                     Prerequisite: NONE<br>
                     Credit: 3(2-2-5)<br>
-                    Principles to software professionals, role of applications in software engineering tasks,
+                    Principles to software professionals, role of applications in software engineering tasks,<span id="dots7">...</span><span id="more7">
                     agile software development tools, product
                     development tracking, version and configuration management, build and continuous integration tools,
-                    program debugging and profiling tools, collaborative development environment, packaging and development tools.
+                    program debugging and profiling tools, collaborative development environment, packaging and development tools.</span>
                 </p>
+                <button onclick="readFunction7()" id="readMore7">Read more</button>
 
                 <p>
                     <b><br>PROJECT IN SOFTWARE ENGINEERING 1</b><br>
                     Subject code: 06016329<br>
                     Prerequisite: NONE<br>
                     Credit: 3(0-9-0)<br>
-                    Study or research of interesting current topics in software engineering undertaking a work project based
+                    Study or research of interesting current topics in software engineering undertaking a work project<span id="dots8">...</span><span id="more8"> based
                     by applying the theoretical aspects of the information technology studies under the supervision of
-                    a faculty member to be able to present a project proposal and elementary result from practical solving or academic analysis.
+                    a faculty member to be able to present a project proposal and elementary result from practical solving or academic analysis.</span>
                 </p>
+                <button onclick="readFunction8()" id="readMore8">Read more</button>
 
                 <p>
                     <b><br>PROJECT IN SOFTWARE ENGINEERING 2</b><br>
                     Subject code: 06016330<br>
                     Prerequisite: 06016329 PROJECT IN SOFTWARE ENGINEERING 1<br>
                     Credit: 3(0-9-0)<br>
-                    Study or research of interesting current topics in software engineering undertaking a work project based
+                    Study or research of interesting current topics in software engineering undertaking a work project<span id="dots9">...</span><span id="more9"> based
                     by applying the theoretical aspects of the information technology studies under the supervision of
-                    a faculty member to be able to present a complete result of the proposed topic and study as continued from project I.
+                    a faculty member to be able to present a complete result of the proposed topic and study as continued from project I.</span>
                 </p>
+                <button onclick="readFunction9()" id="readMore9">Read more</button>
     </div>
 
     <!--//////////////////////////////////////////////////////////////////////////////-->
@@ -383,6 +330,8 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+
+    <script src="SE_Project.js"></script>
     </section>
 </body>
 </html>
