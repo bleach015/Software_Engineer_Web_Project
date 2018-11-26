@@ -125,3 +125,12 @@
     color: white;
     text-align: center;
 }
+
+#branch_subjects_table {
+    padding: 100px;
+}
+
+#branch_eligible {
+    text-align: center;
+    padding: 100px;
+}
