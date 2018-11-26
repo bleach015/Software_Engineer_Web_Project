@@ -5,6 +5,11 @@
     width: 1142px;
     height: 900px;
     padding: 20%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #head1 {
@@ -91,8 +96,11 @@
 
 #about_course {
     display: block;
-    text-align: center;
     padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    align-items: center;
+	justify-content: center;
 }
 #career_ex {
     display: block;
@@ -246,4 +254,17 @@
 
 #more9 {
     display: none;
+}
+
+.parallax {
+    background-image: url('parallax1.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
 }
