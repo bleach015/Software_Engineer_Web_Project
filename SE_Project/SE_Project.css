@@ -109,7 +109,7 @@ th, td {
 }
 #branch_subjects {
     display: block;
-    padding: 100px;
+    padding-left: 100px;
 }
 
 #loader {
@@ -172,7 +172,7 @@ th, td {
 
 #branch_eligible {
     text-align: center;
-    padding: 100px;
+    padding: 20px;
 }
 
 #branch_interested {
@@ -268,4 +268,36 @@ th, td {
 
 body, html {
     height: 100%;
+}
+
+#career_ex_head {
+    text-align: center;
+}
+
+.text_font {
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+}
+
+#branch_sub {
+    background: moccasin;
+    padding-left: 100px;
+}
+
+.parallax1 {
+    background-image: url('programmer.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('software_tester.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
