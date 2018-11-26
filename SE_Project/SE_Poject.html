@@ -25,13 +25,74 @@
     <div id="Sidenav" class="fade">
         <a href="http://www.it.kmitl.ac.th/" target="_blank" id="it_kmitl">IT @KMITL<img src="it_kmitl.png" width="50px" height="50px" align='right'></a>
     </div>
-    <!--  TEST   -->
-    <div id="Sidenav2" class="fade_dropdown">
-        <a href="#" id="content_table"><img src="dashboard.svg" align='right' width="50px" height="50px">MENU</a>
-        <div class="dropdown-content">
-            <p>Hello World!</p>
-        </div>
+    <!--  SIDE NAV   -->
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: antiquewhite;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: dodgerblue;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+    </style>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about_course">About Software Engineering</a>
+        <a href="#career_ex">Example career</a>
+        <a href="#branch_subjects">Branch Subject</a>
+        <a href="#branch_subjects_table">Subject table</a>
+        <a href="#branch_eligible">Eligible</a>
+        <a href="#branch_interested">Interested</a>
+        <a href="#different_branch">Different</a>
     </div>
+    <div id="sidenav2" onclick="openNav()" hover>
+        <a id="content_table"><img id="img_nav2" src="dashboard.svg" align='right' width="50px" height="50px"></a>
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
     <!---------------------------------------------->
 
     <!--About Course-->
@@ -194,8 +255,9 @@
                 <button onclick="readFunction9()" id="readMore9">Read more</button>
     </div>
 
-    <!--//////////////////////////////////////////////////////////////////////////////-->
-    <table class="transition" id="branch_subjects_table" width="90%" align="center">
+    <!--///////////////////////// TABLE  PROJECT /////////////////////////////////-->
+    <p align="center" id="head_table_project"><b>Without Cooperative Work</b></p>
+    <table class="transition" id="branch_subjects_table_project" width="90%" align="center">
         <tr>
             <th>YEAR 2/2</th>
             <th>YEAR 3/1</th>
@@ -238,11 +300,63 @@
                 6016327<br>
                 Cloud-based Enterprise Application Development
             </td>
+        </tr>
+        <tr align="center">
+            <td>
+
+            </td>
+            <td>
+                6016325<br>
+                Service-Oriented Programming
+            </td>
+            <td>
+                6016328<br>
+                Software Development Tools and Environments
+            </td>
+        </tr>
+    </table>
+    <!--//////////////////////// TABLE COOP ////////////////////////////////-->
+    <p align="center" id="head_table_coop"><b>With Cooperative Work</b></p>
+    <table class="transition" id="branch_subjects_table_intern" width="90%" align="center">
+        <tr>
+            <th>YEAR 2/2</th>
+            <th>YEAR 3/1</th>
+            <th>YEAR 3/2</th>
+            <th>YEAR 4/1</th>
+            <th>YEAR 4/2</th>
+        </tr>
+        <tr align="center">
+            <td>
+                6016321<br>
+                Software Engineering
+            </td>
+            <td>
+                6016323<br>
+                Mobile Device Programming
+            </td>
+            <td>
+                6016326<br>
+                Software Verification and Validation
+            </td>
             <td>
                 Cooperative Work
             </td>
             <td>
                 Cooperative Work
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                60163212<br>
+                Web Programming
+            </td>
+            <td>
+                6016324<br>
+                Requirement Engineering
+            </td>
+            <td>
+                6016327<br>
+                Cloud-based Enterprise Application Development
             </td>
         </tr>
         <tr align="center">
