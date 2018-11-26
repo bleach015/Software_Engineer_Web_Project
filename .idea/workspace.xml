@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1ae8f3-9ffe-434a-9778-9030d018dea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE_Project/SE_Poject.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Project/SE_Poject.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SE_Project/SE_Poject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="974">
-              <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+            <state relative-caret-position="841">
+              <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -28,8 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SE_Project/SE_Project.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="442">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../2nd year/WMT/New folder/Software_Engineer_Web_Project/SE_Project/SE_Poject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="207" column="12" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="207" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -54,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -64,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,11 +120,12 @@
       <workItem from="1543132697713" duration="841000" />
       <workItem from="1543134201032" duration="3235000" />
       <workItem from="1543153637929" duration="4219000" />
+      <workItem from="1543216718548" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8295000" />
+    <option name="totallyTimeSpent" value="8390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,10 +137,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15064102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.074288726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -154,27 +163,26 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../CSS/exercise/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CSS/exercise/index.html">
+    <entry file="file://$PROJECT_DIR$/../CSS/exercise/style.css" />
+    <entry file="file://$PROJECT_DIR$/../CSS/exercise/index.html" />
+    <entry file="file://$PROJECT_DIR$/SE_Project/SE_Project.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SE_Project/SE_Project.css">
+    <entry file="file://$PROJECT_DIR$/../2nd year/WMT/New folder/Software_Engineer_Web_Project/SE_Project/SE_Poject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="518">
+          <caret line="207" column="12" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="207" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SE_Project/SE_Poject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+        <state relative-caret-position="841">
+          <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
         </state>
       </provider>
     </entry>
