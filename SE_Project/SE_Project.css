@@ -30,27 +30,7 @@
     }
 }
 /*test*/
-.fade_dropdown {
-    animation: fadeIn 5s;
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-#Sidenav2:hover .dropdown-content {
-    display: block;
-}
-
-#Sidenav2 a {
+#sidenav2 a{
     position: fixed;
     left: -330px;
     transition: 0.3s;
@@ -60,9 +40,10 @@
     font-size: 20px;
     color: white;
     border-radius: 0 10px 10px 0;
+    animation: fadeIn 5s;
 }
-
 /*---------------------------------------------*/
+
 #Sidenav a {
     position: fixed;    
     left: -330px;
@@ -166,46 +147,4 @@
 #branch_eligible {
     text-align: center;
     padding: 100px;
-}
-
-#branch_interested {
-    text-align: center;
-    padding: 100px;
-}
-
-#different_branch {
-    text-align: center;
-    padding: 100px;
-}
-
-/*fortext fx*/
-.transition {
-	position: relative;
-	overflow: hidden;
-	/*display: inline-block;*/
-	opacity:0;
-	animation: reveal .8s ease forwards;
-}
-
-.transition::before {
-	content: '';
-	display: block;
-	position: absolute;
-	left: 0;
-	background: #000;
-	height: 100%;
-	animation: revealLayer .8s ease forwards;
-	z-index: 1;
-}
-
-@keyframes reveal {
-	0%, 50% {color:rgba(0,0,0,0);}
-	0% {opacity:1;}
-	100% {opacity:1;}
-}
-
-@keyframes revealLayer {
-	0% {width:0; left:0;}
-	50% {width:100%; left:0;}
-	100% {width:0; left:100%;}
 }
