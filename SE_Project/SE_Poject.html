@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Software Engineer</title>
     <link rel="stylesheet" href="SE_Project.css">
-    <link href="https://fonts.googleapis.com/css?family=Concert+One|Patrick+Hand|Patua+One|Philosopher|Playfair+Display+SC|Sanchez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 </head>
 <body onload="myFunction()" style="margin:0;">
 
@@ -94,7 +95,7 @@
     <!--About Course-->
     <div id="about_course">
         <h1 class="transition text_font" id="course_description">What is Software Engineering?</h1>
-        <p id="text_descript">
+        <p id="text_descript" class="para_font">
                 Software engineering is the branch that focusing on programming, developing software systems in the service of mankind. 
                 This course covers the fundamentals of software engineering, including understanding system 
                 requirements, effective methods of design, coding, and testing.
@@ -107,7 +108,7 @@
     <!--Carrer after graduate-->
     <div id="career_ex">
         <h1 class="transition text_font" id="career_ex_head">Example of career after graduated</h1>
-                <p id="career_ex_head_text">
+                <p id="career_ex_head_text" class="para_font">
                     - Programmer<br>
                     - Web Developer<br>
                     - Software Tester<br>
@@ -125,7 +126,7 @@
         <h1 class="transition text_font" id="branch_subjects_ex">Branch Subjects</h1>
     </div>
         <div id="branch_sub">
-                <p>
+                <p class="para_font">
                     <b><br>SOFTWARE ENGINEERING<br></b>
                     Subject code: 06016321<br>
                     PREREQUISITE : 06016306 INFORMATION SYSTEMS ANALYSIS AND DESIGN<br>
@@ -139,7 +140,7 @@
                 </p>
                 <button onclick="readFunction()" id="readMore">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>WEB PROGRAMMING<br></b>
                     Subject code: 06016322<br>
                     Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
@@ -150,7 +151,7 @@
                 </p>
                 <button onclick="readFunction1()" id="readMore1">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>MOBILE DEVICE PROGRAMMING</b><br>
                     Subject code: 06016323<br>
                     Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
@@ -160,7 +161,7 @@
                 </p>
                 <button onclick="readFunction2()" id="readMore2">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>REQUIREMENT ENGINEERING</b><br>
                     Subject code: 06016324<br>
                     Prerequisite: NONE<br>
@@ -172,7 +173,7 @@
                 </p>
                 <button onclick="readFunction3()" id="readMore3">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>SERVICE-ORIENTED PROGRAMMING</b><br>
                     Subject code: 06016325<br>
                     Prerequisite: NONE<br>
@@ -183,7 +184,7 @@
                 </p>
                 <button onclick="readFunction4()" id="readMore4">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>SOFTWARE VERIFICATION AND VALIDATION</b><br>
                     Subject code: 06016326<br>
                     Prerequisite: 06016306 INFORMATION SYSTEMS ANALYSISAND DESIGN<br>
@@ -194,7 +195,7 @@
                 </p>
                 <button onclick="readFunction5()" id="readMore5">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</b><br>
                     Subject code: 06016327<br>
                     Prerequisite: 06016325 SERVICES-ORIENTED PROGRAMMING<br>
@@ -208,7 +209,7 @@
                 </p>
                 <button onclick="readFunction6()" id="readMore6">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</b><br>
                     Subject code: 06016328<br>
                     Prerequisite: NONE<br>
@@ -220,7 +221,7 @@
                 </p>
                 <button onclick="readFunction7()" id="readMore7">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>PROJECT IN SOFTWARE ENGINEERING 1</b><br>
                     Subject code: 06016329<br>
                     Prerequisite: NONE<br>
@@ -231,7 +232,7 @@
                 </p>
                 <button onclick="readFunction8()" id="readMore8">Read more</button>
 
-                <p>
+                <p class="para_font">
                     <b><br>PROJECT IN SOFTWARE ENGINEERING 2</b><br>
                     Subject code: 06016330<br>
                     Prerequisite: 06016329 PROJECT IN SOFTWARE ENGINEERING 1<br>
@@ -245,7 +246,8 @@
 
 
     <!--///////////////////////// TABLE  PROJECT /////////////////////////////////-->
-    <p align="center" id="head_table_project"><b>Without Cooperative Work</b></p>
+    <div class="tab">
+    <h1 align="center" id="head_table_project" class="text_font"><b>Without Cooperative Work</b></h1>
     <table class="transition" id="branch_subjects_table_project" width="90%" align="center">
         <tr>
             <th>YEAR 2/2</th>
@@ -304,17 +306,20 @@
             </td>
         </tr>
     </table>
+    </div>
+
     <!--//////////////////////// TABLE COOP ////////////////////////////////-->
-    <p align="center" id="head_table_coop"><b>With Cooperative Work</b></p>
+    <div class="tab">
+    <h1 align="center" id="head_table_coop" class="text_font"><b>With Cooperative Work</b></h1>
     <table class="transition" id="branch_subjects_table_intern" width="90%" align="center">
-        <tr>
+        <tr class="para_font">
             <th>YEAR 2/2</th>
             <th>YEAR 3/1</th>
             <th>YEAR 3/2</th>
             <th>YEAR 4/1</th>
             <th>YEAR 4/2</th>
         </tr>
-        <tr align="center">
+        <tr align="center" class="para_font">
             <td>
                 6016321<br>
                 Software Engineering
@@ -334,7 +339,7 @@
                 Cooperative Work
             </td>
         </tr>
-        <tr align="center">
+        <tr align="center" class="para_font">
             <td>
                 60163212<br>
                 Web Programming
@@ -348,7 +353,7 @@
                 Cloud-based Enterprise Application Development
             </td>
         </tr>
-        <tr align="center">
+        <tr align="center" class="para_font">
             <td>
 
             </td>
@@ -362,15 +367,16 @@
             </td>
         </tr>
     </table>
+    </div>
 
     <div class="parallax2"></div>
 
     <!--Who is eligible for this branch?-->
-    <div class="transition" id="branch_eligible"  style="background-color:moccasin;">
+    <div class="transition text_font" id="branch_eligible"  style="background-color:moccasin;">
         <h1>Who is eligible for this branch?</h1>
     </div>
-    <div style="padding-left:750px; font-size: 25px;">
-        <p>
+    <div style="padding-left:770px; font-size: 25px;">
+        <p class="para_font">
             1. Have programming knowledge.<br>
             2. Have good logic.<br>
             3. Have good mathematic knowledge.
@@ -382,14 +388,14 @@
         <h1>What I need to do/to have if I am interested in this branch and do not have strong experience?</h1>
     </div>
         <div style="padding-left:100px; font-size: 25px;">
-        <p>
+        <p class="para_font">
             It would be easier to enter this branch if you have some experience in programming.
         </p>
-        <p>
+        <p class="para_font">
             We also have pre-programming course for PSIT subject which you will learn about Python language. 
             This would help you make decision and be more confident in yourselves.
         </p>
-        <p>
+        <p class="para_font">
             Here at IT faculty, we have 3 programming subjects which are Problem Solving in Information Technology, 
             Computer Programming, and Object Oriented Programming. The computer language that students will learn in these subjects 
             are Python, C, Java.
@@ -398,21 +404,26 @@
 
     <!--How is Software Engineering differ from Multimedia and Network branch?-->
     <div class="transition" id="different_branch" style="background-color:moccasin;">
-
-    
         <h1>How Software Engineering differ from Multimedia and Game Development and Network and System Technology branch?</h1>
     </div>
-        <div align="center" style="font-size: 25px;">
-        <p>
+        <div style="padding-left: 250px;font-size: 25px;">
+        <p class="para_font">
             For Multimedia and Game Development, students in this branch will learn about front-end development and the use of creativity.
+        </p>
+        <p class="para_font">
             But for Software Engineering, we are focusing on back-end developing and deep programming.
+        </p>
+        <p class="para_font">
             Network and System Technology will focus on network.
         </p>
     </div>
 
+    <!--Test/////////////////////-->
+    <div class="parallax3"></div>
+
     <!--End of the line-->
     <div id="end_line">
-        <h1>Map</h1>
+        <h1 class="text_font">Contact Us/Map</h1>
     </div>
 
     <!--JavaScript-->

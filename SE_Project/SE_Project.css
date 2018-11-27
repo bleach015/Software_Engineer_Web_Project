@@ -48,7 +48,7 @@
     animation: fadeIn 5s;
 }
 #img_nav2 {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 /*---- TABLE -----*/
@@ -62,10 +62,10 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 #head_table_project{
-    font-size: 20px;
+    font-size: 35px;
 }
 #head_table_coop{
-    font-size: 20px;
+    font-size: 35px;
 }
 /*--------------------------------------------*/
 #Sidenav a {
@@ -161,7 +161,7 @@ th, td {
 
 #end_line {
     background: black;
-    padding: 100px;
+    padding: 50px;
     color: white;
     text-align: right;
 }
@@ -173,23 +173,27 @@ th, td {
 #branch_eligible {
     text-align: center;
     padding: 20px;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;    
 }
 
 #branch_interested {
     text-align: center;
-    padding: 100px;
+    padding: 20px;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;   
 }
 
 #different_branch {
     text-align: center;
-    padding: 100px;
+    padding: 20px;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;  
 }
 
-/*fortext fx*/
 .transition {
 	position: relative;
 	overflow: hidden;
-	/*display: inline-block;*/
 	opacity:0;
 	animation: reveal .8s ease forwards;
 }
@@ -275,7 +279,7 @@ body, html {
 }
 
 .text_font {
-    font-family: 'Concert One', cursive;
+    font-family: 'Sanchez', serif;
     font-size: 50px;
 }
 
@@ -295,6 +299,45 @@ body, html {
 
 .parallax2 {
     background-image: url('software_tester.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#branch_subjects_ex {
+    padding-top: 100px;
+}
+
+button {
+    vertical-align: middle;
+    background: none;
+    border: 2px solid rgb(72, 189, 235);
+    color: rgb(72, 189, 235);
+    transition: 0.75s;
+    padding: 1em 2em;
+    max-width: 150px;
+    height: 40px;
+
+}
+
+button:hover ,button:focus {
+    box-shadow: inset 0 -10em 0 0 #1d95f7;
+    color: white;
+}
+
+.para_font {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+
+.tab {
+    padding: 100px;
+}
+
+.parallax3 {
+    background-image: url('para2.jpeg');
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
