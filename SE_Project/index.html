@@ -13,6 +13,49 @@
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+      <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="#">ABOUT</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li><a href="#">WHAT IS SOFTWARE ENGINEERING</a></li>
+                <li><a href="#">DIFFERENT</a></li>
+                <li><a href="#">ELIGIBLE</a></li>
+                <li><a href="#">TO DE / TO HAVE</a></li>
+                <li><a href="#">EXAMPLE CAREER</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">BRANCH SUBJECT</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li><a href="#">SOFTWARE ENGINEERING</a></li>
+                <li><a href="#">WEB PROGRAMMING</a></li>
+                <li><a href="#">MOBILE DEVICE PROGRAMMING</a></li>
+                <li><a href="#">REQUIREMENT ENGINEERING</a></li>
+                <li><a href="#">SERVICE-ORIENTED PROGRAMMING</a></li>
+                <li><a href="#">SOFTWARE VERIFICATION AND VALIDATION</a></li>
+                <li><a href="#">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a></li>
+                <li><a href="#">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a></li>
+                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 1</a></li>
+                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 2</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Item</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+
   <!--spinner-->
   <div uk-spinner="ratio: 3"></div>
 
@@ -231,7 +274,126 @@
 
 
 
+  <!-- TABLE -->
+  <div style="text-align: center;"><button class="uk-button uk-button-default" type="button" uk-toggle="target: .toggle">CHANGE TABLE</button></div>
+  <!--///////////////////////// TABLE  PROJECT /////////////////////////////////-->
+  <p class="toggle" align="center" id="head_table_project"><b>Without Cooperative Work</b></p>
+  <table class="toggle" id="branch_subjects_table_project" width="90%" align="center">
+    <tr>
+      <th>YEAR 2/2</th>
+      <th>YEAR 3/1</th>
+      <th>YEAR 3/2</th>
+      <th>YEAR 4/1</th>
+      <th>YEAR 4/2</th>
+    </tr>
+    <tr align="center">
+      <td>
+        6016321<br>
+        Software Engineering
+      </td>
+      <td>
+        6016323<br>
+        Mobile Device Programming
+      </td>
+      <td>
+        6016326<br>
+        Software Verification and Validation
+      </td>
+      <td>
+        6016329<br>
+        Project in Software Engineering 1
+      </td>
+      <td>
+        6016330<br>
+        Project in Software Engineering 2
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        60163212<br>
+        Web Programming
+      </td>
+      <td>
+        6016324<br>
+        Requirement Engineering
+      </td>
+      <td>
+        6016327<br>
+        Cloud-based Enterprise Application Development
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
 
+      </td>
+      <td>
+        6016325<br>
+        Service-Oriented Programming
+      </td>
+      <td>
+        6016328<br>
+        Software Development Tools and Environments
+      </td>
+    </tr>
+  </table>
+  <!--//////////////////////// TABLE COOP ////////////////////////////////-->
+  <p class="toggle" align="center" id="head_table_coop" hidden><b>With Cooperative Work</b></p>
+  <table class="toggle" id="branch_subjects_table_intern" width="90%" align="center" hidden>
+    <tr>
+      <th>YEAR 2/2</th>
+      <th>YEAR 3/1</th>
+      <th>YEAR 3/2</th>
+      <th>YEAR 4/1</th>
+      <th>YEAR 4/2</th>
+    </tr>
+    <tr align="center">
+      <td>
+        6016321<br>
+        Software Engineering
+      </td>
+      <td>
+        6016323<br>
+        Mobile Device Programming
+      </td>
+      <td>
+        6016326<br>
+        Software Verification and Validation
+      </td>
+      <td>
+        Cooperative Work
+      </td>
+      <td>
+        Cooperative Work
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        60163212<br>
+        Web Programming
+      </td>
+      <td>
+        6016324<br>
+        Requirement Engineering
+      </td>
+      <td>
+        6016327<br>
+        Cloud-based Enterprise Application Development
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+
+      </td>
+      <td>
+        6016325<br>
+        Service-Oriented Programming
+      </td>
+      <td>
+        6016328<br>
+        Software Development Tools and Environments
+      </td>
+    </tr>
+  </table>
 
 </body>
 
