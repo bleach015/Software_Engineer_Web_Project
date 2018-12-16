@@ -12,6 +12,16 @@
     background-size: cover;
 }
 
+@import url(//db.onlinewebfonts.com/c/7ad138835c0cf9f05a9f0ab343247612?family=ProximaNovaSoftW03-Bold);
+
+@font-face {font-family: "ProximaNovaSoftW03-Bold";
+    src: url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.eot");
+    src: url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7ad138835c0cf9f05a9f0ab343247612.svg#ProximaNovaSoftW03-Bold") format("svg");
+}
 #head1 {
     text-align: center;
     padding-left: 20px;
