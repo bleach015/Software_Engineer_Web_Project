@@ -1,0 +1,16 @@
+/*---- TABLE -----*/
+table {
+    width: 70%;
+    border-collapse: unset;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#head_table_project{
+    font-size: 35px;
+}
+#head_table_coop{
+    font-size: 35px;
+}
