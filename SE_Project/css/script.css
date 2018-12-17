@@ -19,12 +19,11 @@ th, td {
     font-size: 35px;
 }
 
-<<<<<<< Updated upstream
 #bg1 {
-    background-image: url("pic/glenn-carstens-peters-203007-unsplash.jpg");
+    background-image: url("pic/glenn-carstens-peters-203007-unsplash1.jpg");
     background-repeat: no-repeat;
     position: relative;
-    padding: 20%;
+    padding: 21%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +32,48 @@ th, td {
     -o-background-size: cover;
     background-size: cover;
 }
-=======
+
+#se_header {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.divide_div {
+  padding: 100px;
+}
+
+.content {
+  padding-left: 300px;
+}
+
+.bg_color {
+  background: rgb(240, 240, 240);
+}
+
+.uk-heading-bullet {
+  color: darkgrey;
+}
+
+#bg2 {
+  background-image: url("pic/alejandro-escamilla-1-unsplash.jpg");
+  position: relative;
+  padding: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.white{
+  color: white;
+}
+
+<<<<<<< Updated upstream
+
 /*----- NAV BAR ----*/
 #nav_bar{
     background-color: powderblue !important;
