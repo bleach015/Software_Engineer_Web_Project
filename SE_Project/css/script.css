@@ -115,6 +115,7 @@ nav a:hover{
 
 /* Style images */
 .container img {
+    object-fit: cover;
     float: left;
     max-width: 60px;
     width: 100%;
