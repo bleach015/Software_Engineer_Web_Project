@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1ae8f3-9ffe-434a-9778-9030d018dea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE_Project/css/script.css" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Project/css/script.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE_Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Project/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SE_Project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1801">
-              <caret line="349" column="2" selection-start-line="349" selection-start-column="2" selection-end-line="349" selection-end-column="2" />
+            <state relative-caret-position="682">
+              <caret line="419" column="14" lean-forward="true" selection-start-line="419" selection-start-column="14" selection-end-line="419" selection-end-column="14" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,9 +36,7 @@
                 <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#iframe#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -166,12 +162,12 @@
       <workItem from="1544948768375" duration="994000" />
       <workItem from="1544950585915" duration="697000" />
       <workItem from="1544957270608" duration="7541000" />
-      <workItem from="1545031337134" duration="10090000" />
+      <workItem from="1545031337134" duration="13856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49646000" />
+    <option name="totallyTimeSpent" value="53412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SE_Project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1801">
-          <caret line="349" column="2" selection-start-line="349" selection-start-column="2" selection-end-line="349" selection-end-column="2" />
+        <state relative-caret-position="682">
+          <caret line="419" column="14" lean-forward="true" selection-start-line="419" selection-start-column="14" selection-end-line="419" selection-end-column="14" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -304,9 +300,7 @@
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#iframe#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
