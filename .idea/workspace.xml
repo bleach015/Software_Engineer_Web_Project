@@ -20,12 +20,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SE_Project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="282" column="64" selection-start-line="282" selection-start-column="64" selection-end-line="282" selection-end-column="64" />
+            <state relative-caret-position="594">
+              <caret line="377" column="43" lean-forward="true" selection-start-line="377" selection-start-column="43" selection-end-line="377" selection-end-column="43" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -34,6 +35,8 @@
                 <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -42,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SE_Project/css/script.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="611">
+              <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -78,8 +81,8 @@
         <option value="$PROJECT_DIR$/SE_Project/SE_Poject.html" />
         <option value="$PROJECT_DIR$/SE_Project/script_uikit.css" />
         <option value="$PROJECT_DIR$/SE_Project/script.css" />
-        <option value="$PROJECT_DIR$/SE_Project/css/script.css" />
         <option value="$PROJECT_DIR$/SE_Project/index.html" />
+        <option value="$PROJECT_DIR$/SE_Project/css/script.css" />
       </list>
     </option>
   </component>
@@ -158,12 +161,12 @@
       <workItem from="1544948768375" duration="994000" />
       <workItem from="1544950585915" duration="697000" />
       <workItem from="1544957270608" duration="7541000" />
-      <workItem from="1545031337134" duration="4414000" />
+      <workItem from="1545031337134" duration="6374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43970000" />
+    <option name="totallyTimeSpent" value="45930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,7 +178,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35042736" />
@@ -271,19 +274,20 @@
     <entry file="file://$PROJECT_DIR$/SE_Project/script.css" />
     <entry file="file://$PROJECT_DIR$/SE_Project/css/script.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="611">
+          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SE_Project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="282" column="64" selection-start-line="282" selection-start-column="64" selection-end-line="282" selection-end-column="64" />
+        <state relative-caret-position="594">
+          <caret line="377" column="43" lean-forward="true" selection-start-line="377" selection-start-column="43" selection-end-line="377" selection-end-column="43" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -292,6 +296,8 @@
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
