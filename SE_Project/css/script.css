@@ -2,6 +2,7 @@
 table {
     width: 70%;
     border-collapse: unset;
+    table-layout: fixed;
 }
 
 th, td {
@@ -18,7 +19,6 @@ th, td {
 #head_table_coop{
     font-size: 35px;
 }
-
 #bg1 {
     background-image: url("pic/glenn-carstens-peters-203007-unsplash1.jpg");
     background-repeat: no-repeat;
@@ -32,7 +32,6 @@ th, td {
     -o-background-size: cover;
     background-size: cover;
 }
-
 #se_header {
   color: #ffffff;
   text-align: center;
@@ -74,6 +73,7 @@ th, td {
 
 <<<<<<< Updated upstream
 
+<<<<<<< HEAD
 /*----- NAV BAR ----*/
 #nav_bar{
     background-color: powderblue !important;
@@ -87,4 +87,3 @@ nav a:hover{
     color: blue !important;
 }
 /*----------------------*/
->>>>>>> Stashed changes

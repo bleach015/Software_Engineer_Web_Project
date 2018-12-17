@@ -15,60 +15,6 @@
 
 <body onload="myFunction()" style="margin:0;">
 
-  <!-- NAVBAR -->
-  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar" >
-    <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li>
-            <a href="#">ABOUT</a>
-            <div class="uk-navbar-dropdown">
-              <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#">WHAT IS SOFTWARE ENGINEERING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">DIFFERENT</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">ELIGIBLE</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">TO DE / TO HAVE</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">EXAMPLE CAREER</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#">BRANCH SUBJECT</a>
-            <div class="uk-navbar-dropdown">
-              <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#">SOFTWARE ENGINEERING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">WEB PROGRAMMING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">MOBILE DEVICE PROGRAMMING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">REQUIREMENT ENGINEERING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">SERVICE-ORIENTED PROGRAMMING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">SOFTWARE VERIFICATION AND VALIDATION</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 1</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 2</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">Item</a></li>
-        </ul>
-
-      </div>
-    </nav>
-  </div>
-
   <!--spinner-->
   <div id="loader" uk-spinner="ratio: 3"></div>
 
@@ -76,6 +22,61 @@
   <div id="bg1">
       <b><h1 id="se_header">SOFTWARE ENGINEERING</h1></b>
   </div>
+
+  <!-- NAVBAR -->
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+      <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li>
+              <a href="#">ABOUT</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">WHAT IS SOFTWARE ENGINEERING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">DIFFERENT</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">ELIGIBLE</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">TO DE / TO HAVE</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">EXAMPLE CAREER</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">BRANCH SUBJECT</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">SOFTWARE ENGINEERING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">WEB PROGRAMMING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">MOBILE DEVICE PROGRAMMING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">REQUIREMENT ENGINEERING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">SERVICE-ORIENTED PROGRAMMING</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">SOFTWARE VERIFICATION AND VALIDATION</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 1</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 2</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Item</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
 
   <!--About Course-->
   <div class="divide_div bg_color">
@@ -127,7 +128,7 @@
     - Software Tester<br>
     - System Analyst<br>
     - Software Architect<br>
-    - Project manager Assistant.
+    - Project manager Assistant
   </div>
   <br>
 
@@ -278,8 +279,9 @@
   <!-- TABLE -->
   <div style="text-align: center;"><button class="uk-button uk-button-default" type="button" uk-toggle="target: .toggle">SWITCH TABLE BETWEEN COOPERATIVE/WITHOUT COOPERATIVE</button></div>
   <!--///////////////////////// TABLE  PROJECT /////////////////////////////////-->
-  <p class="toggle" align="center" id="head_table_project"><b>Without Cooperative Work</b></p>
-  <table class="toggle" id="branch_subjects_table_project" width="90%" align="center">
+  <p class="toggle" align="center" id="head_table_project_w_coop"><b>Without Cooperative Work</b></p>
+  <p class="toggle" align="center" id="head_table_project_n_coop" hidden><b>With Cooperative Work</b></p>
+  <table id="branch_subjects_table_project" align="center">
     <tr>
       <th>YEAR 2/2</th>
       <th>YEAR 3/1</th>
@@ -300,72 +302,20 @@
         6016326<br>
         Software Verification and Validation
       </td>
-      <td>
+      <td  class="toggle" >
         6016329<br>
         Project in Software Engineering 1
       </td>
-      <td>
+      <td  class="toggle" >
         6016330<br>
         Project in Software Engineering 2
       </td>
-    </tr>
-    <tr align="center">
-      <td>
-        60163212<br>
-        Web Programming
-      </td>
-      <td>
-        6016324<br>
-        Requirement Engineering
-      </td>
-      <td>
-        6016327<br>
-        Cloud-based Enterprise Application Development
-      </td>
-    </tr>
-    <tr align="center">
-      <td>
-
-      </td>
-      <td>
-        6016325<br>
-        Service-Oriented Programming
-      </td>
-      <td>
-        6016328<br>
-        Software Development Tools and Environments
-      </td>
-    </tr>
-  </table>
-  <!--//////////////////////// TABLE COOP ////////////////////////////////-->
-  <p class="toggle" align="center" id="head_table_coop" hidden><b>With Cooperative Work</b></p>
-  <table class="toggle" id="branch_subjects_table_intern" width="90%" align="center" hidden>
-    <tr>
-      <th>YEAR 2/2</th>
-      <th>YEAR 3/1</th>
-      <th>YEAR 3/2</th>
-      <th>YEAR 4/1</th>
-      <th>YEAR 4/2</th>
-    </tr>
-    <tr align="center">
-      <td>
-        6016321<br>
-        Software Engineering
-      </td>
-      <td>
-        6016323<br>
-        Mobile Device Programming
-      </td>
-      <td>
-        6016326<br>
-        Software Verification and Validation
-      </td>
-      <td>
+      <td class="toggle" hidden>
         Cooperative Work
       </td>
-      <td>
+      <td class="toggle" hidden>
         Cooperative Work
-      </td>
+      </td >
     </tr>
     <tr align="center">
       <td>
