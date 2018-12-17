@@ -2,6 +2,7 @@
 table {
     width: 70%;
     border-collapse: unset;
+    table-layout: fixed;
 }
 
 th, td {
@@ -19,7 +20,7 @@ th, td {
     font-size: 35px;
 }
 
-<<<<<<< Updated upstream
+/*Updated upstream*/
 #bg1 {
     background-image: url("pic/glenn-carstens-peters-203007-unsplash.jpg");
     background-repeat: no-repeat;
@@ -33,7 +34,7 @@ th, td {
     -o-background-size: cover;
     background-size: cover;
 }
-=======
+
 /*----- NAV BAR ----*/
 #nav_bar{
     background-color: powderblue !important;
@@ -47,4 +48,5 @@ nav a:hover{
     color: blue !important;
 }
 /*----------------------*/
->>>>>>> Stashed changes
+
+
