@@ -28,60 +28,65 @@
   <!-- NAVBAR -->
   <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="#bg1" uk-icon="home"></a></li>
+            </ul>
+        </div>
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
           <li>
-            <a href="#">ABOUT</a>
+            <a>ABOUT</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#">WHAT IS SOFTWARE ENGINEERING</a></li>
+                <li><a href="#what_is">WHAT IS SOFTWARE ENGINEERING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">DIFFERENT</a></li>
+                <li><a href="#how_differ">DIFFERENT</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">ELIGIBLE</a></li>
+                <li><a href="#bg2">ELIGIBLE</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">TO DE / TO HAVE</a></li>
+                <li><a href="#to_do">TO DE / TO HAVE</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">EXAMPLE CAREER</a></li>
+                <li><a href="#ex_of_career">EXAMPLE CAREER</a></li>
               </ul>
             </div>
           </li>
           <li>
-            <a href="#">BRANCH SUBJECT</a>
+            <a href="#subject">BRANCH SUBJECT</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#">SOFTWARE ENGINEERING</a></li>
+                <li><a href="#se">SOFTWARE ENGINEERING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">WEB PROGRAMMING</a></li>
+                <li><a href="#wp">WEB PROGRAMMING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">MOBILE DEVICE PROGRAMMING</a></li>
+                <li><a href="#mdp">MOBILE DEVICE PROGRAMMING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">REQUIREMENT ENGINEERING</a></li>
+                <li><a href="#re">REQUIREMENT ENGINEERING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">SERVICE-ORIENTED PROGRAMMING</a></li>
+                <li><a href="#sop">SERVICE-ORIENTED PROGRAMMING</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">SOFTWARE VERIFICATION AND VALIDATION</a></li>
+                <li><a href="#svav">SOFTWARE VERIFICATION AND VALIDATION</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a></li>
+                <li><a href="#cbead">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a></li>
+                <li><a href="#sdtae">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 1</a></li>
+                <li><a href="#pro1">PROJECT IN SOFTWARE ENGINEERING 1</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#">PROJECT IN SOFTWARE ENGINEERING 2</a></li>
+                <li><a href="#pro2">PROJECT IN SOFTWARE ENGINEERING 2</a></li>
               </ul>
             </div>
           </li>
-          <li><a href="#">SUBJECT TABLE</a></li>
+          <li><a href="#subj_table">SUBJECT TABLE</a></li>
+          <li><a href="#q_and_a">Q&A</a></li>
         </ul>
-
       </div>
     </nav>
   </div>
 
 
   <!--About Course-->
-  <div class="divide_div bg_color" id="1">
+  <div class="divide_div bg_color" id="what_is">
     <h1 class="uk-heading-bullet content">What is Software Engineering?</h1>
     <p class="content">Software engineering is the branch that focusing on programming, developing software systems in the service of mankind.
       <br>This course covers the fundamentals of software engineering, including understanding system
@@ -90,7 +95,7 @@
   <br>
 
   <!--How is Software Engineering differ from Multimedia and Network branch?-->
-  <div class="divide_div">
+  <div class="divide_div" id="how_differ">
     <h1 class="uk-heading-bullet content">How different from the other two branches?</h1>
     <p class="content">For Software Engineering, we are focusing on back-end developing and deep programming.<br>
       But for Multimedia and Game Development, students in this branch will learn about front-end development and the use of creativity.<br>
@@ -108,7 +113,7 @@
   <br>
 
   <!--What you need to do/to have if you are interested in this branch-->
-  <div class="divide_div">
+  <div class="divide_div" id="to_do">
     <h1>Less experience but interested in Software Engineering branch?</h1>
 
     It would be easier to enter this branch if you have some experience in programming.<br>
@@ -124,7 +129,7 @@
   <br>
 
   <!--Career after graduate-->
-  <div>
+  <div id="ex_of_career">
     <div style="padding: 50px; background-color: black;">
     <h1 align="center" style="color: white;">Example of career after graduated</h1>
     </div>
@@ -187,14 +192,14 @@
   <br>
 
   <!--Specific subjects in SE branch-->
-  <div class="divide_div" style="padding-bottom: 50px;">
+  <div class="divide_div" style="padding-bottom: 50px;" id="subject">
   <div>
     <h1>Branch Subjects</h1>
   </div>
 
   <ul uk-accordion="multiple: true">
     <li class="uk-open">
-      <a class="uk-accordion-title" href="#">SOFTWARE ENGINEERING</a>
+      <a class="uk-accordion-title" href="#" id="se">SOFTWARE ENGINEERING</a>
       <div class="uk-accordion-content">
         <p>Subject code: 06016321<br>
           PREREQUISITE : 06016306 INFORMATION SYSTEMS ANALYSIS AND DESIGN<br>
@@ -209,7 +214,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">WEB PROGRAMMING</a>
+      <a class="uk-accordion-title" href="#" id="ไย">WEB PROGRAMMING</a>
       <div class="uk-accordion-content">
         <p>Subject code: 06016322<br>
           Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
@@ -221,7 +226,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">MOBILE DEVICE PROGRAMMING</a>
+      <a class="uk-accordion-title" href="#" id="mdp">MOBILE DEVICE PROGRAMMING</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016323<br>
@@ -233,7 +238,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">REQUIREMENT ENGINEERING</a>
+      <a class="uk-accordion-title" href="#" id="re">REQUIREMENT ENGINEERING</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016324<br>
@@ -247,7 +252,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">SERVICE-ORIENTED PROGRAMMING</a>
+      <a class="uk-accordion-title" href="#" id="sop">SERVICE-ORIENTED PROGRAMMING</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016325<br>
@@ -260,7 +265,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">SOFTWARE VERIFICATION AND VALIDATION</a>
+      <a class="uk-accordion-title" href="#" id="svav">SOFTWARE VERIFICATION AND VALIDATION</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016326<br>
@@ -273,7 +278,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a>
+      <a class="uk-accordion-title" href="#" id="cbead">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016327<br>
@@ -289,7 +294,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a>
+      <a class="uk-accordion-title" href="#" id="sdtae">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016328<br>
@@ -303,7 +308,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">PROJECT IN SOFTWARE ENGINEERING 1</a>
+      <a class="uk-accordion-title" href="#" id="pro1">PROJECT IN SOFTWARE ENGINEERING 1</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016329<br>
@@ -316,7 +321,7 @@
       </div>
     </li>
     <li>
-      <a class="uk-accordion-title" href="#">PROJECT IN SOFTWARE ENGINEERING 2</a>
+      <a class="uk-accordion-title" href="#" pro2>PROJECT IN SOFTWARE ENGINEERING 2</a>
       <div class="uk-accordion-content">
         <p>
           Subject code: 06016330<br>
@@ -332,7 +337,7 @@
 </div>
 
   <!-- TABLE -->
-  <div style="border: solid 2px; padding: 50px; margin: 100px; margin-top: 0px;">
+  <div style="border: solid 2px; padding: 50px; margin: 100px; margin-top: 0px;" id="subj_table">
     <div style="text-align: center;"><button class="uk-button uk-button-default" type="button" uk-toggle="target: .toggle">SWITCH TABLE BETWEEN COOPERATIVE/WITHOUT COOPERATIVE</button></div>
     <!--///////////////////////// TABLE  PROJECT /////////////////////////////////-->
     <p class="toggle" align="center" id="head_table_project_w_coop"><b>Without Cooperative Work</b></p>
@@ -403,7 +408,7 @@
   </div>
 
   <!--  CHAT MESSAGE -->
-  <div class="divide_div">
+  <div class="divide_div" id="q_and_a">
     <h1>Q&A</h1>
     <div class="container">
       <img src="pic/test.jpg" alt="Avatar">

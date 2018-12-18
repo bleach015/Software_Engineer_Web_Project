@@ -1,6 +1,6 @@
 /*---- TABLE -----*/
 table {
-    width: 70%;
+    width: 80%;
     border-collapse: unset;
     table-layout: fixed;
 }
@@ -85,7 +85,12 @@ nav a{
 }
 
 nav a:hover{
-    color: blue !important;
+    border-bottom: 3px solid #f0506e;
+   /* color: #f0506e !important;*/
+}
+
+nav a:active{
+    border-bottom: 3px solid #f0506e;
 }
 /*----------------------*/
 
@@ -142,3 +147,5 @@ nav a:hover{
     color: #999;
 }
 /*----------------------*/
+
+/*----- TEST -----*/
