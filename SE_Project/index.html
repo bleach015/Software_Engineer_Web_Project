@@ -13,11 +13,7 @@
   <!--<script src="js/uikit.js"></script>-->
 </head>
 
-<body onload="myFunction()" style="margin:0;">
-
-  <!--spinner-->
-  <div id="loader" uk-spinner="ratio: 3"></div>
-
+<body>
   <!--Web header-->
   <div id="bg1">
     <b>
@@ -27,45 +23,46 @@
 
   <!-- NAVBAR -->
   <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-    <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
-      <div class="uk-navbar-left">
-        <div>
-          <!--IT Logo-->
-          <a href="http://www.it.kmitl.ac.th/" target="_blank" class="hvr-shrink">
-            <img src="it_kmitl.png" alt="itkmitl logo" style="float:left;" id="it_1ogo" size="20px 20px">
-          </a>
+   <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
+       <div class="uk-navbar-left">
+         <div>
+           <!--IT Logo-->
+           <a href="http://www.it.kmitl.ac.th/" target="_blank" class="hvr-shrink">
+             <img src="it_kmitl.png" alt="itkmitl logo" style="float:left;" id="it_1ogo" size="20px 20px">
+           </a>
+         </div>
+
         </div>
-        <div>
-          <ul class="uk-navbar-nav">
-            <li><a href="#bg1" uk-icon="home" uk-scroll class="under"></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li>
-            <a class="under">ABOUT</a>
-            <div class="uk-navbar-dropdown">
-              <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="#what_is" uk-scroll class="under">WHAT IS SOFTWARE ENGINEERING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#how_differ" uk-scroll class="under">DIFFERENT</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#bg2" uk-scroll class="under">ELIGIBLE</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#bg3" uk-scroll class="under">INTERESTED IN SOFTWARE ENGINEERING</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#ex_of_career" uk-scroll class="under">EXAMPLE CAREER</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#subject" uk-scroll class="under">BRANCH SUBJECT</a>
-          </li>
-          <li><a href="#subj_table" uk-scroll class="under">SUBJECT TABLE</a></li>
-          <li><a href="#q_and_a" uk-scroll class="under">COMMENTS FROM SENIOR STUDENTS</a></li>
-        </ul>
-      </div>
+       <div class="uk-navbar-right">
+           <ul class="uk-navbar-nav">
+             <div>
+               <ul class="uk-navbar-nav">
+                 <li><a href="#bg1" uk-icon="home" uk-scroll class="under"></a></li>
+               </ul>
+             </div>
+             <li>
+               <a class="under">ABOUT</a>
+               <div class="uk-navbar-dropdown">
+                 <ul class="uk-nav uk-navbar-dropdown-nav">
+                   <li><a href="#what_is" uk-scroll class="under">WHAT IS SOFTWARE ENGINEERING</a></li>
+                   <li class="uk-nav-divider"></li>
+                   <li><a href="#how_differ" uk-scroll class="under">DIFFERENT</a></li>
+                   <li class="uk-nav-divider"></li>
+                   <li><a href="#bg2" uk-scroll class="under">ELIGIBLE</a></li>
+                   <li class="uk-nav-divider"></li>
+                   <li><a href="#bg3" uk-scroll class="under">INTERESTED IN SOFTWARE ENGINEERING</a></li>
+                   <li class="uk-nav-divider"></li>
+                   <li><a href="#ex_of_career" uk-scroll class="under">EXAMPLE CAREER</a></li>
+                 </ul>
+               </div>
+             </li>
+             <li>
+               <a href="#subject" uk-scroll class="under">BRANCH SUBJECT</a>
+             </li>
+             <li><a href="#subj_table" uk-scroll class="under">SUBJECT TABLE</a></li>
+             <li><a href="#q_and_a" uk-scroll class="under">COMMENTS FROM SENIOR STUDENTS</a></li>
+           </ul>
+         </div>
     </nav>
   </div>
 
@@ -191,9 +188,9 @@
   </div>
 
   <!--Job Statistic-->
-  <div class="bg_color" style="padding-top: 50px;">
+  <div class="bg_color" style="padding-top: 50px;" uk-scrollspy="cls:uk-animation-fade; delay: 500;">
     <h3 style="text-align: center;">Statistic of people who work in some of the above careers (in percent)</h3>
-    <div class="uk-section uk-section-default bg_color">
+    <div class="uk-section uk-section-default bg_color" uk-scrollspy="cls:uk-animation-fade; delay: 500;">
       <div class="uk-container">
         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
           <div>
@@ -433,13 +430,13 @@
   <div class="divide_div bg_color" id="q_and_a" style="padding-top: 100px;" uk-scrollspy="cls: uk-animation-fade; delay: 200;">
     <h1 style="margin-bottom: 50px; text-align: center;">Comments from senior students</h1>
     <div class="container">
-      <img src="pic/test.jpg" alt="Avatar">
+      <img src="pic/comment1.jpg" alt="Avatar">
       <p class="font_size">This branch is good. It taught me about what I think it is easy, but in fact, it needs some processes to aqquried what is called it is easy.</p>
       <span class="time-right">Mawin</span>
     </div>
 
     <div class="container darker">
-      <img src="pic/test.jpg" alt="Avatar" class="right">
+      <img src="pic/comment2.jpg" alt="Avatar" class="right">
       <p class="font_size" style="text-align: justify;">Software Engineering is subject that learn about software development mainly. Start from collect requirement to deliver the software to client.
         Moreover, our faculty teaches main subjects for example requirement engineering, mobile application programming, software verification and validation and software development by using popular architecture.
         Overall, this branch is full of programming course which is good for people who want to be a programmer.</p>
@@ -447,16 +444,15 @@
     </div>
 
     <div class="container">
-      <img src="pic/test.jpg" alt="Avatar">
+      <img src="pic/comment3.jpg" alt="Avatar">
       <p class="font_size">You can do everthing about programming from programming to web even networking when you graduate from software engineering branch.</p>
       <span class="time-right">Weeruhputt</span>
     </div>
 
     <div class="container darker">
-      <img src="pic/test.jpg" alt="Avatar" class="right">
-      <p class="font_size" style="text-align: justify;">Studying in software engineering will make you have skills in create production. No matter if it's website or mobile application, you will do all of these efficiently because you will learn
-        about the process of development step by step from 0 until you have a production that can be used for real and efficiently.
-        Furthermore, the knowledge of the process of development can be applied to the other projects that are not relate to the computer too.</p>
+      <img src="pic/comment4.jpg" alt="Avatar" class="right">
+      <p class="font_size" style="text-align: justify;">Studying in software engineering will make you have skills in create production. No matter if it's website or mobile application, you will do all of these efficiently because you will learn about the process of development step by step from 0 until you have a production that can be used for real and efficiently.
+Furthermore, the knowledge of the process of development can be applied to the other projects that are not relate to the computer too.</p>
       <span class="time-left">Thanawat</span>
     </div>
   </div>
@@ -510,20 +506,7 @@
   </div>
 
 
-  <!--in file script-->
-  <script>
-    var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(showPage(), 3000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("bg1").style.display = "block";
-    }
-  </script>
-
+  <!--script-->
   <script src="js/uikit-icons.min.js"></script>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/count_script.js"></script>
