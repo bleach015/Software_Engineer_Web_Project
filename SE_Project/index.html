@@ -27,107 +27,111 @@
 
   <!-- NAVBAR -->
   <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-   <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
-       <div class="uk-navbar-left">
-         <div>
-           <!--IT Logo-->
-           <a href="http://www.it.kmitl.ac.th/" target="_blank" class="hvr-shrink">
-             <img src="it_kmitl.png" alt="itkmitl logo" style="float:left;" id="it_1ogo" size="20px 20px">
-           </a>
-         </div>
-         <div>
-            <ul class="uk-navbar-nav">
-                <li><a href="#bg1" uk-icon="home" uk-scroll class="under"></a></li>
-            </ul>
-         </div>
+    <nav class="uk-navbar-container" id="nav_bar" uk-navbar style="position: relative; z-index: 980;">
+      <div class="uk-navbar-left">
+        <div>
+          <!--IT Logo-->
+          <a href="http://www.it.kmitl.ac.th/" target="_blank" class="hvr-shrink">
+            <img src="it_kmitl.png" alt="itkmitl logo" style="float:left;" id="it_1ogo" size="20px 20px">
+          </a>
         </div>
-       <div class="uk-navbar-right">
-           <ul class="uk-navbar-nav">
-             <li>
-               <a class="under">ABOUT</a>
-               <div class="uk-navbar-dropdown">
-                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                   <li><a href="#what_is" uk-scroll class="under">WHAT IS SOFTWARE ENGINEERING</a></li>
-                   <li class="uk-nav-divider"></li>
-                   <li><a href="#how_differ" uk-scroll class="under">DIFFERENT</a></li>
-                   <li class="uk-nav-divider"></li>
-                   <li><a href="#bg2" uk-scroll class="under">ELIGIBLE</a></li>
-                   <li class="uk-nav-divider"></li>
-                   <li><a href="#bg3" uk-scroll class="under">INTERESTED IN SOFTWARE ENGINEERING</a></li>
-                   <li class="uk-nav-divider"></li>
-                   <li><a href="#ex_of_career" uk-scroll class="under">EXAMPLE CAREER</a></li>
-                 </ul>
-               </div>
-             </li>
-             <li>
-               <a href="#subject" uk-scroll class="under">BRANCH SUBJECT</a>
-             </li>
-             <li><a href="#subj_table" uk-scroll class="under">SUBJECT TABLE</a></li>
-             <li><a href="#q_and_a" uk-scroll class="under">COMMENTS FROM SENIOR STUDENTS</a></li>
-           </ul>
-         </div>
+        <div>
+          <ul class="uk-navbar-nav">
+            <li><a href="#bg1" uk-icon="home" uk-scroll class="under"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a class="under">ABOUT</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li><a href="#what_is" uk-scroll class="under">WHAT IS SOFTWARE ENGINEERING</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#how_differ" uk-scroll class="under">DIFFERENT</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#bg2" uk-scroll class="under">ELIGIBLE</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#bg3" uk-scroll class="under">INTERESTED IN SOFTWARE ENGINEERING</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#ex_of_career" uk-scroll class="under">EXAMPLE CAREER</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#subject" uk-scroll class="under">BRANCH SUBJECT</a>
+          </li>
+          <li><a href="#subj_table" uk-scroll class="under">SUBJECT TABLE</a></li>
+          <li><a href="#q_and_a" uk-scroll class="under">COMMENTS FROM SENIOR STUDENTS</a></li>
+        </ul>
+      </div>
     </nav>
   </div>
 
   <!--About Course-->
   <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" uk-grid>
-  <div class="uk-card-media-left uk-cover-container">
-        <img src="pic/what_is_se.jpg" alt="" uk-cover>
-        <canvas width="600" height="400"></canvas>
+    <div class="uk-card-media-left uk-cover-container">
+      <img src="pic/what_is_se.jpg" alt="" uk-cover>
+      <canvas width="600" height="400"></canvas>
     </div>
-    <div  class="divide_div"  id="what_is">
-        <div>
-            <h1 class="uk-heading-bullet content">What is Software Engineering?</h1>
-            <p class="content font_size">Software engineering is the branch that focusing on programming, developing software systems in the service of mankind.
-      <br>This course covers the fundamentals of software engineering, including understanding system
-      requirements, effective methods of design, coding, and testing.</p>
-        </div>
-	  </div>
-	      <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-        <img src="pic/how_diff.jpg" alt="" uk-cover>
-        <canvas width="600" height="400"></canvas>
+    <div class="divide_div" id="what_is" uk-scrollspy="cls: uk-animation-slide-right; delay: 200;">
+      <div>
+        <h1 class="uk-heading-bullet content">What is Software Engineering?</h1>
+        <p class="content font_size">Software engineering is the branch that focusing on programming, developing software systems in the service of mankind.
+          <br>This course covers the fundamentals of software engineering, including understanding system
+          requirements, effective methods of design, coding, and testing.</p>
+      </div>
+    </div>
+    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+      <img src="pic/how_diff.jpg" alt="" uk-cover>
+      <canvas width="600" height="400"></canvas>
     </div>
 
     <!--How is Software Engineering differ from Multimedia and Network branch?-->
-    <div id="how_differ">
-        <div class="divide_div">
-            <h1 class="uk-heading-bullet content">How different from the other two branches?</h1>
-            <p class="content font_size">For Software Engineering, we are focusing on back-end developing and deep programming.<br>
-      But for Multimedia and Game Development, students in this branch will learn about front-end development and the use of creativity.<br>
-      Network and System Technology will focus on network.</p>
-        </div>
+    <div id="how_differ" uk-scrollspy="cls: uk-animation-slide-left; delay: 200;">
+      <div class="divide_div">
+        <h1 class="uk-heading-bullet content">How different from the other two branches?</h1>
+        <p class="content font_size">For Software Engineering, we are focusing on back-end developing and deep programming.<br>
+          But for Multimedia and Game Development, students in this branch will learn about front-end development and the use of creativity.<br>
+          Network and System Technology will focus on network.</p>
+      </div>
     </div>
   </div>
 
   <!-- test parallax -->
 
-<!--Who is eligible for this branch?-->
+  <!--Who is eligible for this branch?-->
   <div class="divide_div" uk-parallax="bgy: -800" id="bg2" style="padding-right: 100px;">
+    <div uk-scrollspy="cls: uk-animation-fade; delay: 100;">
     <h1 class="white pad_left uk-heading-bullet content">Eligible</h1>
     <p class="white pad_left font_size">1. Have programming knowledge.<br>
       2. Have good logic.<br>
       3. Have good mathematics knowledge.</p>
   </div>
+</div>
 
   <!--What you need to do/to have if you are interested in this branch-->
   <div uk-parallax="bgy: -800" id="bg3" style="padding-right: 1100px; padding-left: 40px;">
+    <div uk-scrollspy="cls: uk-animation-fade; delay: 200;">
     <h1 class="white2 uk-heading-bullet">Less experience but interested in Software Engineering branch?</h1>
     <p class="white2 font_size" style="text-align: justify;">
-    It would be easier to enter this branch if you have some experience in programming.
+      It would be easier to enter this branch if you have some experience in programming.
 
-    Here at IT faculty, we have 3 programming subjects which are Problem Solving in Information Technology,
-    Computer Programming, and Object Oriented Programming. The computer language that students will learn in these subjects
-    are Python, C, and Java.
+      Here at IT faculty, we have 3 programming subjects which are Problem Solving in Information Technology,
+      Computer Programming, and Object Oriented Programming. The computer language that students will learn in these subjects
+      are Python, C, and Java.
 
-    We also have pre-programming course for Problem Solving in Information Technology subject which you will learn about Python language.
-    This would help you make decision and be more confident in yourselves.
+      We also have pre-programming course for Problem Solving in Information Technology subject which you will learn about Python language.
+      This would help you make decision and be more confident in yourselves.
     </p>
+  </div>
   </div>
 
   <!--Career after graduate-->
   <div id="ex_of_career">
     <div style="padding: 100px; background-color: black;">
-    <h1 style="color: white; text-align: center;">Example of career after graduated</h1>
+      <h1 style="color: white; text-align: center;">Example of career after graduated</h1>
     </div>
     <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-collapse uk-grid-small" uk-grid>
       <div class="uk-text-center">
@@ -185,174 +189,174 @@
       </div>
     </div>
   </div>
-  <br>
-	
-  <!--Job Statistic-->
-  <div class="uk-section uk-section-default">
-    <div class="uk-container">
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-            <div>
-                <h1 align="center">23%</h1>
-                <p align="center">System Analyst</p>
-            </div>
-            <div>
-                <h1 align="center">47%</h1>
-                <p align="center">Programmer</p>
-            </div>
-            <div>
-                <h1 align="center">30%</h1>
-                <p align="center">Web Developer</p>
-            </div>
-        </div>
 
+  <!--Job Statistic-->
+  <div class="bg_color" style="padding-top: 50px;">
+    <h3 style="text-align: center;">Statistic of people who work in some of the above careers (in percent)</h3>
+    <div class="uk-section uk-section-default bg_color">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+          <div>
+            <h1 align="center" class="count">23</h1>
+            <p align="center">System Analyst</p>
+          </div>
+          <div>
+            <h1 align="center" class="count">47</h1>
+            <p align="center">Programmer</p>
+          </div>
+          <div>
+            <h1 align="center" class="count">30</h1>
+            <p align="center">Web Developer</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <br>
 
   <!--Specific subjects in SE branch-->
   <div class="divide_div" style="padding-bottom: 50px;" id="subject">
-  <div>
-    <h1>Branch Subjects</h1>
-  </div>
+    <div>
+      <h1 uk-scrollspy="cls: uk-animation-fade; delay: 200;">Branch Subjects</h1>
+    </div>
 
-  <ul uk-accordion="multiple: true">
-    <li class="uk-open">
-      <a class="uk-accordion-title" href="#" id="se">SOFTWARE ENGINEERING</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">Subject code: 06016321<br>
-          PREREQUISITE : 06016306 INFORMATION SYSTEMS ANALYSIS AND DESIGN<br>
-          Credit: 3(3-0-6)<br>
-          Introduction to software engineering; software categories and evolution;software
-          engineering process framework; agile software development methodology; design pattern;
-          software engineering practice; software development environment using version control;
-          capability maturity model integration (CMMI); requirement engineering; analysis and design
-          engineering; introduction to software testing; unified process; process evaluation; and
-          prescriptive and evolutionary process models.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="wp">WEB PROGRAMMING</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">Subject code: 06016322<br>
-          Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
-          Credit: 3(2-2-5)<br>
-          Dynamic web pages development; HTTP protocol;web servers; server-side web
-          programming; cookies handling; session tracking; web database application development;
-          Javascript and AJAX technology
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="mdp">MOBILE DEVICE PROGRAMMING</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016323<br>
-          Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
-          Credit: 3(2-2-5)<br>
-          Introduction to technology and the programming of applicationfor mobile computing including devices
-          i.e. smart phones, pads, and tablets; developing mobile applications and using device emulators for coding and testing.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="re">REQUIREMENT ENGINEERING</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016324<br>
-          Prerequisite: NONE<br>
-          Credit: 3(3-0-6)<br>
-          Requirements management technique; problem analysis; stakeholder needs;
-          document requirements with use-case model; document hierarchy and standard for define requirements level;
-          system definition; scope managing; requirement attributes and traceability;
-          manage change; using requirements to drive ongoing design, test, and user documentation.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="sop">SERVICE-ORIENTED PROGRAMMING</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016325<br>
-          Prerequisite: NONE<br>
-          Credit: 3(2-2-5)<br>
-          Concepts and structures of web services; web services standards;
-          development and deployment of web service applications; concept of Service-Oriented Architecture (SOA);
-          features and benefits of enterprise service bus (ESB); business process management (BPM)
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="svav">SOFTWARE VERIFICATION AND VALIDATION</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016326<br>
-          Prerequisite: 06016306 INFORMATION SYSTEMS ANALYSISAND DESIGN<br>
-          Credit: 3(3-0-6)<br>
-          Role of V&V in software evolution; software technical reviews; levels of software testing; testing techniques;
-          proof of correctness; simulation and prototyping; requirements tracing; software V&V planning; tracking
-          test activities; problem tracking and assessment.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="cbead">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016327<br>
-          Prerequisite: 06016325 SERVICES-ORIENTED PROGRAMMING<br>
-          Credit: 3(2-2-5)<br>
-          Introduction to cloud technology, cloud architecture, virtualization and
-          multi-tenancy features, principles to develop enterprise application in cloud,
-          declarative and problematic application development, governances limits,
-          frequently encountered issues during cloud-based, application development,
-          requirements or capability factors towards the selection of appropriate development paradigm,
-          data analytics using cloud platforms, principle to cloud database management, NoSQL.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="sdtae">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016328<br>
-          Prerequisite: NONE<br>
-          Credit: 3(2-2-5)<br>
-          Principles to software professionals, role of applications in software engineering tasks,
-          agile software development tools, product
-          development tracking, version and configuration management, build and continuous integration tools,
-          program debugging and profiling tools, collaborative development environment, packaging and development tools.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="pro1">PROJECT IN SOFTWARE ENGINEERING 1</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016329<br>
-          Prerequisite: NONE<br>
-          Credit: 3(0-9-0)<br>
-          Study or research of interesting current topics in software engineering undertaking a work project based
-          by applying the theoretical aspects of the information technology studies under the supervision of
-          a faculty member to be able to present a project proposal and elementary result from practical solving or academic analysis.
-        </p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#" id="pro2">PROJECT IN SOFTWARE ENGINEERING 2</a>
-      <div class="uk-accordion-content">
-        <p class="font_size">
-          Subject code: 06016330<br>
-          Prerequisite: 06016329 PROJECT IN SOFTWARE ENGINEERING 1<br>
-          Credit: 3(0-9-0)<br>
-          Study or research of interesting current topics in software engineering undertaking a work project based
-          by applying the theoretical aspects of the information technology studies under the supervision of
-          a faculty member to be able to present a complete result of the proposed topic and study as continued from project I.
-        </p>
-      </div>
-    </li>
-  </ul>
-</div>
+    <ul uk-accordion="multiple: true">
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 500;">
+        <a class="uk-accordion-title" href="#" id="se">SOFTWARE ENGINEERING</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">Subject code: 06016321<br>
+            PREREQUISITE : 06016306 INFORMATION SYSTEMS ANALYSIS AND DESIGN<br>
+            Credit: 3(3-0-6)<br>
+            Introduction to software engineering; software categories and evolution;software
+            engineering process framework; agile software development methodology; design pattern;
+            software engineering practice; software development environment using version control;
+            capability maturity model integration (CMMI); requirement engineering; analysis and design
+            engineering; introduction to software testing; unified process; process evaluation; and
+            prescriptive and evolutionary process models.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 600;">
+        <a class="uk-accordion-title" href="#" id="wp">WEB PROGRAMMING</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">Subject code: 06016322<br>
+            Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
+            Credit: 3(2-2-5)<br>
+            Dynamic web pages development; HTTP protocol;web servers; server-side web
+            programming; cookies handling; session tracking; web database application development;
+            Javascript and AJAX technology
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 700;">
+        <a class="uk-accordion-title" href="#" id="mdp">MOBILE DEVICE PROGRAMMING</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016323<br>
+            Prerequisite: 06016317 OBJECT-ORIENTED PROGRAMMING<br>
+            Credit: 3(2-2-5)<br>
+            Introduction to technology and the programming of applicationfor mobile computing including devices
+            i.e. smart phones, pads, and tablets; developing mobile applications and using device emulators for coding and testing.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 800;">
+        <a class="uk-accordion-title" href="#" id="re">REQUIREMENT ENGINEERING</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016324<br>
+            Prerequisite: NONE<br>
+            Credit: 3(3-0-6)<br>
+            Requirements management technique; problem analysis; stakeholder needs;
+            document requirements with use-case model; document hierarchy and standard for define requirements level;
+            system definition; scope managing; requirement attributes and traceability;
+            manage change; using requirements to drive ongoing design, test, and user documentation.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 900;">
+        <a class="uk-accordion-title" href="#" id="sop">SERVICE-ORIENTED PROGRAMMING</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016325<br>
+            Prerequisite: NONE<br>
+            Credit: 3(2-2-5)<br>
+            Concepts and structures of web services; web services standards;
+            development and deployment of web service applications; concept of Service-Oriented Architecture (SOA);
+            features and benefits of enterprise service bus (ESB); business process management (BPM)
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 1000;">
+        <a class="uk-accordion-title" href="#" id="svav">SOFTWARE VERIFICATION AND VALIDATION</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016326<br>
+            Prerequisite: 06016306 INFORMATION SYSTEMS ANALYSISAND DESIGN<br>
+            Credit: 3(3-0-6)<br>
+            Role of V&V in software evolution; software technical reviews; levels of software testing; testing techniques;
+            proof of correctness; simulation and prototyping; requirements tracing; software V&V planning; tracking
+            test activities; problem tracking and assessment.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 1100;">
+        <a class="uk-accordion-title" href="#" id="cbead">CLOUD-BASED ENTERPRISE APPLICATION DEVELOPMENT</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016327<br>
+            Prerequisite: 06016325 SERVICES-ORIENTED PROGRAMMING<br>
+            Credit: 3(2-2-5)<br>
+            Introduction to cloud technology, cloud architecture, virtualization and
+            multi-tenancy features, principles to develop enterprise application in cloud,
+            declarative and problematic application development, governances limits,
+            frequently encountered issues during cloud-based, application development,
+            requirements or capability factors towards the selection of appropriate development paradigm,
+            data analytics using cloud platforms, principle to cloud database management, NoSQL.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 1200;">
+        <a class="uk-accordion-title" href="#" id="sdtae">SOFTWARE DEVELOPMENT TOOLS AND ENVIRONMENTS</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016328<br>
+            Prerequisite: NONE<br>
+            Credit: 3(2-2-5)<br>
+            Principles to software professionals, role of applications in software engineering tasks,
+            agile software development tools, product
+            development tracking, version and configuration management, build and continuous integration tools,
+            program debugging and profiling tools, collaborative development environment, packaging and development tools.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 1300;">
+        <a class="uk-accordion-title" href="#" id="pro1">PROJECT IN SOFTWARE ENGINEERING 1</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016329<br>
+            Prerequisite: NONE<br>
+            Credit: 3(0-9-0)<br>
+            Study or research of interesting current topics in software engineering undertaking a work project based
+            by applying the theoretical aspects of the information technology studies under the supervision of
+            a faculty member to be able to present a project proposal and elementary result from practical solving or academic analysis.
+          </p>
+        </div>
+      </li>
+      <li uk-scrollspy="cls: uk-animation-slide-left; delay: 1400;">
+        <a class="uk-accordion-title" href="#" id="pro2">PROJECT IN SOFTWARE ENGINEERING 2</a>
+        <div class="uk-accordion-content">
+          <p class="font_size">
+            Subject code: 06016330<br>
+            Prerequisite: 06016329 PROJECT IN SOFTWARE ENGINEERING 1<br>
+            Credit: 3(0-9-0)<br>
+            Study or research of interesting current topics in software engineering undertaking a work project based
+            by applying the theoretical aspects of the information technology studies under the supervision of
+            a faculty member to be able to present a complete result of the proposed topic and study as continued from project I.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
 
   <!-- TABLE -->
   <div style="border: solid 2px; padding: 100px; margin: 100px; margin-top: 0px;" id="subj_table">
@@ -426,7 +430,7 @@
   </div>
 
   <!--  CHAT MESSAGE -->
-  <div class="divide_div bg_color" id="q_and_a" style="padding-top: 100px;">
+  <div class="divide_div bg_color" id="q_and_a" style="padding-top: 100px;" uk-scrollspy="cls: uk-animation-fade; delay: 200;">
     <h1 style="margin-bottom: 50px; text-align: center;">Comments from senior students</h1>
     <div class="container">
       <img src="pic/test.jpg" alt="Avatar">
@@ -437,8 +441,8 @@
     <div class="container darker">
       <img src="pic/test.jpg" alt="Avatar" class="right">
       <p class="font_size" style="text-align: justify;">Software Engineering is subject that learn about software development mainly. Start from collect requirement to deliver the software to client.
-Moreover, our faculty teaches main subjects for example requirement engineering, mobile application programming, software verification and validation and software development by using popular architecture.
-Overall, this branch is full of programming course which is good for people who want to be a programmer.</p>
+        Moreover, our faculty teaches main subjects for example requirement engineering, mobile application programming, software verification and validation and software development by using popular architecture.
+        Overall, this branch is full of programming course which is good for people who want to be a programmer.</p>
       <span class="time-left">Chanoknan</span>
     </div>
 
@@ -450,8 +454,9 @@ Overall, this branch is full of programming course which is good for people who 
 
     <div class="container darker">
       <img src="pic/test.jpg" alt="Avatar" class="right">
-      <p class="font_size" style="text-align: justify;">Studying in software engineering will make you have skills in create production. No matter if it's website or mobile application, you will do all of these efficiently because you will learn about the process of development step by step from 0 until you have a production that can be used for real and efficiently.
-Furthermore, the knowledge of the process of development can be applied to the other projects that are not relate to the computer too.</p>
+      <p class="font_size" style="text-align: justify;">Studying in software engineering will make you have skills in create production. No matter if it's website or mobile application, you will do all of these efficiently because you will learn
+        about the process of development step by step from 0 until you have a production that can be used for real and efficiently.
+        Furthermore, the knowledge of the process of development can be applied to the other projects that are not relate to the computer too.</p>
       <span class="time-left">Thanawat</span>
     </div>
   </div>
@@ -518,9 +523,10 @@ Furthermore, the knowledge of the process of development can be applied to the o
       document.getElementById("bg1").style.display = "block";
     }
   </script>
-  </ul>
 
   <script src="js/uikit-icons.min.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/count_script.js"></script>
 
 </body>
 
