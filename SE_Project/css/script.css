@@ -100,10 +100,6 @@ th, td {
     text-align: left;
 }
 
-/*Updated upstream*/
-
-/*HEAD*/
-
 /*----- NAV BAR ----*/
 #nav_bar{
     background-color: powderblue !important;
@@ -113,7 +109,7 @@ nav a{
     color: black !important;
 }
 
-nav a:hover{
+nav a.under:hover{
     border-bottom: 3px solid #f0506e;
    /* color: #f0506e !important;*/
 }
@@ -121,7 +117,30 @@ nav a:hover{
 nav a:active{
     border-bottom: 3px solid #f0506e;
 }
+
+/* Shrink */
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
 /*----------------------*/
+
+/*----- LOGO -----*/
+#it_1ogo{
+    width: 70px;
+    height: auto;
+}
 
 /*------------- CHAT ----------*/
 /* Chat containers */
@@ -180,13 +199,6 @@ nav a:active{
 /*accordion when hover (branch subjects)*/
 .uk-accordion-title:hover {
   color: #f0506e;
-    /*border-bottom: 3px solid #0f6ecd;*/
-   /* box-shadow:
-            1px 1px #53a7ea,
-            2px 2px #53a7ea,
-            3px 3px #53a7ea;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);*/
 }
 
 /* Round Corners */
