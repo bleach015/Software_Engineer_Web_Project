@@ -47,6 +47,7 @@ th, td {
   color: #ffffff;
   text-align: center;
   text-shadow: 1px 1px rgb(0, 0, 0);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .divide_div {
@@ -109,7 +110,7 @@ th, td {
 
 /*----- NAV BAR ----*/
 #nav_bar{
-    background-color: powderblue !important;
+    background-color: rgb(240, 240, 240) !important;
 }
 
 nav a{
