@@ -150,6 +150,34 @@ nav a:active{
 
 /*accordion when hover (branch subjects)*/
 .uk-accordion-title:hover {
-  color: blue;
+  color: #f0506e;
+    /*border-bottom: 3px solid #0f6ecd;*/
+   /* box-shadow:
+            1px 1px #53a7ea,
+            2px 2px #53a7ea,
+            3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);*/
 }
-/*----- TEST -----*/
+
+/* Round Corners */
+.hvr-round-corners {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+}
+.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+    border-radius: 1em;
+    box-shadow:
+            1px 1px dimgray,
+            2px 2px dimgray,
+            3px 3px dimgray;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
