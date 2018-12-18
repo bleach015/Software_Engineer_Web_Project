@@ -1,3 +1,10 @@
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
 /*---- TABLE -----*/
 table {
     width: 80%;
@@ -54,11 +61,14 @@ th, td {
   color: darkgrey;
 }
 
+.up_top {
+  padding-top: 0;
+}
+
 #bg2 {
   background-image: url("pic/alejandro-escamilla-1-unsplash.jpg");
   position: relative;
-  padding: 100px;
-  background-attachment: fixed;
+  padding: 22%;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
