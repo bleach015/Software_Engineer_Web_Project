@@ -67,8 +67,27 @@ th, td {
   background-size: cover;
 }
 
+#bg3 {
+    background-image: url("pic/bg3_2.jpg");
+    position: relative;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .white{
   color: white;
+}
+
+.white2{
+    /*-webkit-text-stroke: 1px white;*/
+    color: white;
+    text-align: left;
 }
 
 /*Updated upstream*/
