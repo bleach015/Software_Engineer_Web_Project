@@ -142,3 +142,8 @@ nav a:hover{
     color: #999;
 }
 /*----------------------*/
+
+/*accordion when hover (branch subjects)*/
+.uk-accordion-title:hover {
+  color: blue;
+}
